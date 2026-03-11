@@ -38,6 +38,10 @@ const FIELD_SELECTION = `
   }
   ... on Video {
     previewUrls
+    streamingLinks {
+      dash,
+      hls
+    }
   }
 `;
 
